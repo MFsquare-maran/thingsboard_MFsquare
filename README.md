@@ -51,8 +51,36 @@ To customize the main HTML file, modify:
   - `ui-ngx\src\app\shared\models\constants.ts`
 
 ### 7. Change main background image
-  - `ui-ngx\src\app\shared\models\constants.ts`
----
+add image to ui-ngx\src\assets\images hintergrund.jpg
+  - `\ui-ngx\src\app\modules\login\pages\login\force-two-factor-auth-login.component.sass`
+  - `\ui-ngx\src\app\modules\login\pages\login\link-expired.component.sass`
+  - `\ui-ngx\src\app\modules\login\pages\login\login.component.sass`
+  - `\ui-ngx\src\app\modules\login\pages\login\password.component.sass`
+  - `\ui-ngx\src\app\modules\login\pages\login\two-factor-auth-login.component.sass`
+
+
+### 8. Change Link in dashboard-page.component.html
+  - `ui-ngx\src\app\modules\home\components\dashboard-page\dashboard-page.component.html`
+
+
+### 9. Change Link in app.component.ts
+  - `ui-ngx\src\app\app.component.ts`
+
+
+### 10. Change banner.txt
+  - `thingsboard_MFsquare\application\src\main\resources\banner.txt`
+  
+<pre><code>
+ ___ ___ _____ __  __ _____
+|_ _/ _ \_   _|  \/  |  ___|__  __ _ _   _  __ _ _ __ ___
+ | | | | || | | |\/| | |_ / __|/ _` | | | |/ _` | '__/ _ \
+ | | |_| || |_| |  | |  _|\__ \ (_| | |_| | (_| | | |  __/
+|___\___/ |_(_)_|  |_|_|  |___/\__, |\__,_|\__,_|_|  \___|
+                                  |_|
+ ===========================================================
+ :: ${application.title} ::      ${application.formatted-version}
+ ===========================================================
+</code></pre>
 
 Feel free to contribute or reach out for any questions!
 </div>

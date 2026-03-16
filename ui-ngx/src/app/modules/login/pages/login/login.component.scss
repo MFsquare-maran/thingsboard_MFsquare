@@ -19,10 +19,16 @@
 :host {
   display: flex;
   flex: 1 1 0;
+
+  background-image: url('/assets/images/hintergrund.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   .tb-login-content {
     margin-top: 36px;
     margin-bottom: 76px;
-    background-color: #eee;
+    background-color: #eee0;
     --mdc-elevated-card-container-elevation: none;
     .tb-login-form {
       @media #{$mat-gt-xs} {
@@ -107,4 +113,3 @@
     }
   }
 }
-

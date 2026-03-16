@@ -18,13 +18,21 @@
 :host {
   display: flex;
   flex: 1 1 0;
+
+  background-image: url('/assets/images/hintergrund.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   .tb-expired-link-content {
-    background-color: #eee;
+    background-color: #eee0; // transparent, damit das Hintergrundbild sichtbar ist
     --mdc-elevated-card-container-elevation: none;
+
     .tb-expired-link-card {
       letter-spacing: 0.15px;
       line-height: 24px;
       padding: 24px;
+
       @media #{$mat-gt-xs} {
         width: 486px !important;
       }

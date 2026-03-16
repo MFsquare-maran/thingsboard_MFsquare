@@ -19,8 +19,13 @@
   display: flex;
   flex: 1 1 0;
 
+  background-image: url('/assets/images/hintergrund.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   .tb-two-factor-auth-login-content {
-    background-color: #eee;
+    background-color: #eee0;
     --mdc-elevated-card-container-elevation: none;
 
     .tb-two-factor-auth-login-card {
