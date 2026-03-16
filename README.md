@@ -2,6 +2,8 @@
 
 # IOT.MFsquare.ch
 
+<div align="left">
+
 ## Main Color
 - **Blue**: `rgb(54, 170, 207)`  
 - **Hex**: `#36aacf`
