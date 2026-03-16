@@ -1,23 +1,31 @@
-
 <div align="center">
 
 # IOT.MFsquare.ch
 
+## Main Color
+- **Blue**: `rgb(54, 170, 207)`  
+- **Hex**: `#36aacf`
 
-Main Blue 
-rgb(54, 170, 207)
-#36aacf
+---
 
+## Instructions for Customization
 
+### 1. Change Icons
+To update the icons for the project, replace the following files:
 
-1. Change Icons
-  \thingsboard_MFsquare\ui-ngx\src\assets
-  - logo_title_white.svg
-  - logo_white.svg
+- **For Assets**:
+  - `thingsboard_MFsquare/ui-ngx/src/assets/logo_title_white.svg`
+  - `thingsboard_MFsquare/ui-ngx/src/assets/logo_white.svg`
 
-  \thingsboard_MFsquare\ui-ngx\src
-  - thingsboard.ico
+- **For Favicon**:
+  - `thingsboard_MFsquare/ui-ngx/src/thingsboard.ico`
 
-2. Change Index
-  \thingsboard_MFsquare\ui-ngx\src
-  - Index.html
+### 2. Change Index
+To customize the main HTML file, modify:
+
+- `thingsboard_MFsquare/ui-ngx/src/Index.html`
+
+---
+
+Feel free to contribute or reach out for any questions!
+</div>
