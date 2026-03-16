@@ -5,8 +5,11 @@
 <div align="left">
 
 ## Main Color
-- **Blue**: `rgb(54, 170, 207)`  
-- **Hex**: `#36aacf`
+- **Blue**: `rgb(54, 170, 207)` `#36aacf`
+- **Grey1**: `rgb(48, 49, 54)` `#303136`
+- **Grey2**: `rgb(66, 67, 74)` `#42434A`
+
+
 
 ---
 
@@ -27,6 +30,19 @@ To customize the main HTML file, modify:
 
 - `thingsboard_MFsquare/ui-ngx/src/Index.html`
 
+### 3. Change Color Bule & Grey
+
+- **For Blue**
+  - `ui-ngx/src/theme.scss`
+
+- **For grey 1 & 2**
+  - `ui-ngx/src/scss/constants.scss`
+  
+
+### 4. Change app Titels to IOT.MFsquare.ch
+
+  - `ui-ngx/src/environments/environment.ts`
+  - `ui-ngx/src/environments/environment.prod.ts`
 ---
 
 Feel free to contribute or reach out for any questions!
