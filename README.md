@@ -43,6 +43,15 @@ To customize the main HTML file, modify:
 
   - `ui-ngx/src/environments/environment.ts`
   - `ui-ngx/src/environments/environment.prod.ts`
+
+### 5. Change titels in Language
+  - `ui-ngx\src\assets\locale`
+
+### 6. Change Link on img to mfsquare.ch
+  - `ui-ngx\src\app\shared\models\constants.ts`
+
+### 7. Change main background image
+  - `ui-ngx\src\app\shared\models\constants.ts`
 ---
 
 Feel free to contribute or reach out for any questions!
